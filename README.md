@@ -12,7 +12,7 @@
             <groupId>com.ioter</groupId>
             <artifactId>adapter</artifactId>
             <version>1.1.4</version>
-  <type>pom</type>
+            <type>pom</type>
 </dependency>
 # for Gradle
     compile 'com.ioter:adapter:1.1.4'
