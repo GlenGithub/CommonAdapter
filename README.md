@@ -13,7 +13,7 @@
             <artifactId>adapter</artifactId>
             <version>1.1.4</version>
             <type>pom</type>
-</dependency>
+    </dependency>
 # for Gradle
     compile 'com.ioter:adapter:1.1.4'
 # How to use?
