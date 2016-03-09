@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="邀请3个客户"
+            android:textColor="#292d33"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_time_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="6dp"
+            android:text="tv_time_finish"
+            android:textColor="#848c99"
+            android:textSize="11dp" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="22dp"
+        android:background="@drawable/selector_reward_txt"
+        android:gravity="center"
+        android:maxEms="6"
+        android:padding="3dp"
+        android:rotation="-30"
+        android:text="已获得5元"
+        android:textColor="#ff8f8a"
+        android:textSize="12dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/rl_item"
+        android:background="#d9d0d0" />
+</RelativeLayout>
