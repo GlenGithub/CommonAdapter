@@ -1,5 +1,5 @@
 # CommonAdapter
-设计思路：
+       设计思路：
               1.巧妙的利用java泛型技术，使得数据源的适配可以拥抱变化。
               2.把adapter的item作为了一个实体对象，这种方式借鉴了RecyclerView的ViewHolder的设计。
        优点：
