@@ -9,15 +9,15 @@
 # Usage
 # for Maven
     <dependency>
-     <groupId>com.ioter</groupId>
-     <artifactId>adapter</artifactId>
-     <version>1.1.4</version>
+            <groupId>com.ioter</groupId>
+            <artifactId>adapter</artifactId>
+            <version>1.1.4</version>
   <type>pom</type>
 </dependency>
 # for Gradle
     compile 'com.ioter:adapter:1.1.4'
 # How to use?
-       1. 把adapter作为子module引入到项目中；
+       1. 把adapter作为子module引入到项目中（或者compile 'com.ioter:adapter:1.1.4'依赖）；
        2.在主module的build.gradle文件中加入如下引用：
        compile ‘com.jakewharton:butterknife:7.0.1’（因为adapter里的view采用此组件进行注入的）；
        3. new CommonAdapter复写getItemView方法，如下：
