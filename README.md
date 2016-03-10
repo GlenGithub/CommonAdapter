@@ -28,3 +28,8 @@
                      return new TextItem();   
               }
        });
+# Contacts
+
+Blog: http://blog.mcxiaoke.com
+Github: https://github.com/mcxiaoke
+Email: github@mcxiaoke.com
